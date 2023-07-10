@@ -18,14 +18,21 @@ public class MiddleOfLinkedList {
         }
     }
     static ListNode middleNode(ListNode head) {
+        // set up temp var for pointer
         ListNode pointer = new ListNode();
         pointer = head;
         int counter = 0;
+
+        // find size of list by traversing it
         while(pointer!=null){
             counter +=1;
             pointer=pointer.next;
         }
+
+        // middle will be half + 1
         counter = counter/2+1;
+
+        // find node at middle by traversing to it
         while(counter>1){
 
                 head=head.next;

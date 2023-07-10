@@ -20,7 +20,6 @@ public class IsIsomorphic {
                 break;
             }
             g.put(s.charAt(i), t.charAt(i));
-            is=true;
         }return is;
     }
 

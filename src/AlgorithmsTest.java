@@ -67,6 +67,7 @@ public class AlgorithmsTest {
             TreeNode MM =new TreeNode(5,NN,BB);
 
             String [] strings ={e,t, j,s};
+
 //            System.out.println(FirstMissingPositive.firstMissingPositive(ints3));
 //            System.out.println(PivotIndex.pivotIndex(ints9));
 //            System.out.println(IsIsomorphic.isIsomorphic(s, t));
@@ -80,7 +81,7 @@ public class AlgorithmsTest {
 //            System.out.println(tree.levelOrder(MM));
 //            System.out.println(BinarySearchTree.isValidBST(MM));
             System.out.println(FibonacciNumbers.fib(0));
-//            System.out.println(BinarySearch.search(ints8, 8));
-            
+//            System.out.println(BinarySearch.search(ints8, 8);
     }
+
 }
